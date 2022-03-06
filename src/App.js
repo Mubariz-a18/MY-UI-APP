@@ -1,7 +1,7 @@
 import React from "react";
 import Header from './Header'
-import footer from'./Footer'
 import Footer from "./Footer";
+import Name from './Name.js'
 
 
 
@@ -11,7 +11,8 @@ import Footer from "./Footer";
 function App() {
     return <div>
         <Header />
-        <h1>CONTENT SHOWN HERE</h1>
+        <Name personName='mubariz' personAge='22'/>
+        <Name personName='imran' personAge='23'/>
         <Footer />
     </div>
 }
