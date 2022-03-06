@@ -3,6 +3,7 @@ import Header from './Header'
 import Footer from "./Footer";
 import Name from './Name.js'
 import Counter from "./utils/Counter";
+import AutoCounter from "./utils/AutoCounter";
 
 
 
@@ -11,6 +12,7 @@ import Counter from "./utils/Counter";
 function App() {
     return <div>
         <Header />
+        <AutoCounter />
         <Counter count={10}/>
         <Counter count={100}/>
 
