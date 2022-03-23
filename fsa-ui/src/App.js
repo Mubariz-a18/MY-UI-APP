@@ -1,12 +1,19 @@
 import React from 'react';
-import ProductList from './product';
+import Header from './Header';
 import "bootstrap/dist/css/bootstrap.css"
+import Footer from './Footer';
+import UserList from './Users/UserList';
+
+
+
 function App(){
 
 
     return <div>
-       < ProductList />
-    </div>
+        <Header />
+        <UserList/>
+        <Footer />
+            </div>
 }
 
 
